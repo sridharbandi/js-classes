@@ -1,0 +1,41 @@
+{
+  "uid" : "b513c639107c7552",
+  "name" : "3 is greater than 4",
+  "fullName" : "3 is greater than 4",
+  "historyId" : "afca7bfa5fa387bd729486e5ec602e04",
+  "time" : {
+    "start" : 1610052060901,
+    "stop" : 1610052060904,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "4 is always greater than  3: expected 3 to be above 4",
+  "statusTrace" : "AssertionError: 4 is always greater than  3: expected 3 to be above 4\n    at Context.<anonymous> (file:///Users/paarthu/Documents/AXONE/Dev%20Test%20JS%20Axone/2%20Module/7%20Assigment/partb1ques/specs/test.js:7:16)\n    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b513c639107c7552.json",
+  "parameterValues" : [ ]
+}

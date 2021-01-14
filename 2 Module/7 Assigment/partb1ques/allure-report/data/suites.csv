@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 07 21:41:00 CET 2021","Thu Jan 07 21:41:00 CET 2021","1","Assertions","","","","","Array contains",""
+"failed","Thu Jan 07 21:41:00 CET 2021","Thu Jan 07 21:41:00 CET 2021","3","Assertions","","","","","3 is greater than 4",""
+"passed","Thu Jan 07 21:41:00 CET 2021","Thu Jan 07 21:41:00 CET 2021","1","Assertions","","","","","Length of an array",""
+"failed","Thu Jan 07 21:41:00 CET 2021","Thu Jan 07 21:41:00 CET 2021","0","Assertions","","","","","Strict equal",""

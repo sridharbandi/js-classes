@@ -1,0 +1,80 @@
+{
+  "3e2aa0ff8cb8db230bf6d7280b5d07ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8ab2184e6ad0e35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052060907,
+        "stop" : 1610052060908,
+        "duration" : 1
+      }
+    } ]
+  },
+  "86262664f8372454afb808a98a3b0d1f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6e6068ffd8473dd",
+      "status" : "failed",
+      "statusDetails" : "expected 101 to equal '101'",
+      "time" : {
+        "start" : 1610052060907,
+        "stop" : 1610052060907,
+        "duration" : 0
+      }
+    } ]
+  },
+  "afca7bfa5fa387bd729486e5ec602e04" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b513c639107c7552",
+      "status" : "failed",
+      "statusDetails" : "4 is always greater than  3: expected 3 to be above 4",
+      "time" : {
+        "start" : 1610052060901,
+        "stop" : 1610052060904,
+        "duration" : 3
+      }
+    } ]
+  },
+  "0b3c456e9c63e33eecf835a8322a3227" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6057f293e3e1975b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052060905,
+        "stop" : 1610052060906,
+        "duration" : 1
+      }
+    } ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "a6e6068ffd8473dd",
+  "name" : "Strict equal",
+  "fullName" : "Strict equal",
+  "historyId" : "86262664f8372454afb808a98a3b0d1f",
+  "time" : {
+    "start" : 1610052060907,
+    "stop" : 1610052060907,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 101 to equal '101'",
+  "statusTrace" : "AssertionError: expected 101 to equal '101'\n    at Context.<anonymous> (file:///Users/paarthu/Documents/AXONE/Dev%20Test%20JS%20Axone/2%20Module/7%20Assigment/partb1ques/specs/test.js:17:15)\n    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a6e6068ffd8473dd.json",
+  "parameterValues" : [ ]
+}

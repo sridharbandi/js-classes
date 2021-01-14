@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Assertions",
+    "children" : [ {
+      "name" : "3 is greater than 4",
+      "uid" : "b513c639107c7552",
+      "parentUid" : "ec6bae14e57103fa78730cc67f459de5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610052060901,
+        "stop" : 1610052060904,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Length of an array",
+      "uid" : "6057f293e3e1975b",
+      "parentUid" : "ec6bae14e57103fa78730cc67f459de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052060905,
+        "stop" : 1610052060906,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Array contains",
+      "uid" : "d8ab2184e6ad0e35",
+      "parentUid" : "ec6bae14e57103fa78730cc67f459de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052060907,
+        "stop" : 1610052060908,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Strict equal",
+      "uid" : "a6e6068ffd8473dd",
+      "parentUid" : "ec6bae14e57103fa78730cc67f459de5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610052060907,
+        "stop" : 1610052060907,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec6bae14e57103fa78730cc67f459de5"
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "one": "node file1.js",
+    "two": "node file2.js",
+    "three": "node file3.js",
+    "four": "node file4.js",
+    "five": "node file5.js",
+    "all": "npm run one && npm run two && npm run three && npm run four && npm run five"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

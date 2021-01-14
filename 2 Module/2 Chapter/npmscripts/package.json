@@ -1,0 +1,15 @@
+{
+  "name": "npmscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runa": "node a.js",
+    "runb": "node b.js",
+    "runc": "node c.js",
+    "runall": "npm run runa && npm run runb && npm run runc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

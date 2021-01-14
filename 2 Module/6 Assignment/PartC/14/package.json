@@ -1,0 +1,13 @@
+{
+  "name": "14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "person": "node src/ref.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

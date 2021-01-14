@@ -1,0 +1,35 @@
+{
+  "uid" : "6057f293e3e1975b",
+  "name" : "Length of an array",
+  "fullName" : "Length of an array",
+  "historyId" : "0b3c456e9c63e33eecf835a8322a3227",
+  "time" : {
+    "start" : 1610052060905,
+    "stop" : 1610052060906,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6057f293e3e1975b.json",
+  "parameterValues" : [ ]
+}

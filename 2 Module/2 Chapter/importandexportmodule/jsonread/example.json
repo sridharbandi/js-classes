@@ -1,0 +1,6 @@
+{
+    "name": "Sridhar",
+    "age": 30,
+    "email": "abc@abc.com",
+    "cars": ["Honda", "Benz", "Telsa"]
+}

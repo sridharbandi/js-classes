@@ -1,0 +1,41 @@
+[ {
+  "uid" : "d8ab2184e6ad0e35",
+  "name" : "Array contains",
+  "time" : {
+    "start" : 1610052060907,
+    "stop" : 1610052060908,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b513c639107c7552",
+  "name" : "3 is greater than 4",
+  "time" : {
+    "start" : 1610052060901,
+    "stop" : 1610052060904,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6057f293e3e1975b",
+  "name" : "Length of an array",
+  "time" : {
+    "start" : 1610052060905,
+    "stop" : 1610052060906,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6e6068ffd8473dd",
+  "name" : "Strict equal",
+  "time" : {
+    "start" : 1610052060907,
+    "stop" : 1610052060907,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

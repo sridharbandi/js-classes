@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-01-03T09:40:09.827Z",
+    "end": "2021-01-03T09:40:09.841Z",
+    "duration": 14,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d4a165d5-0086-4696-8a3a-92a1c4a218a8",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b7dc931-addd-4475-8444-929ee65c26a0",
+          "title": "Calculator tests",
+          "fullFile": "/Users/paarthu/Documents/AXONE/Dev Test JS Axone/2 Module/3 Chapter/calculatortests/specs/calctests.js",
+          "file": "/specs/calctests.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Substraction test",
+              "fullTitle": "Calculator tests Substraction test",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = calc.substraction(5, 4);\nassert.equal(result, 1, '5 minus 4 should be eqaul to 1')",
+              "err": {},
+              "uuid": "c10b5dba-8add-46d5-b87d-30c74ecc77fb",
+              "parentUUID": "3b7dc931-addd-4475-8444-929ee65c26a0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Multiplication test",
+              "fullTitle": "Calculator tests Multiplication test",
+              "timedOut": false,
+              "duration": 7,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const result = calc.multiplication(5, 4);\nassert.equal(result, 21, '5 * 4 should be eqaul to 20')",
+              "err": {
+                "message": "AssertionError: 5 * 4 should be eqaul to 20: expected 20 to equal 21",
+                "estack": "AssertionError: 5 * 4 should be eqaul to 20: expected 20 to equal 21\n    at Context.<anonymous> (file:///Users/paarthu/Documents/AXONE/Dev%20Test%20JS%20Axone/2%20Module/3%20Chapter/calculatortests/specs/calctests.js:23:17)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 20\n+ 21\n"
+              },
+              "uuid": "8bf0c20b-30be-4c16-bf1e-ba848a4620be",
+              "parentUUID": "3b7dc931-addd-4475-8444-929ee65c26a0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Division test",
+              "fullTitle": "Calculator tests Division test",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const result = calc.division(5, 4);\nexpect(result).to.equal(1.25);\n//assert.equal(result, 1.25, '5 / 4 should be eqaul to 1.25')",
+              "err": {},
+              "uuid": "ad726f29-d2f6-4ba7-add4-4dc44b4805ae",
+              "parentUUID": "3b7dc931-addd-4475-8444-929ee65c26a0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c10b5dba-8add-46d5-b87d-30c74ecc77fb",
+            "ad726f29-d2f6-4ba7-add4-4dc44b4805ae"
+          ],
+          "failures": [
+            "8bf0c20b-30be-4c16-bf1e-ba848a4620be"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 7,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

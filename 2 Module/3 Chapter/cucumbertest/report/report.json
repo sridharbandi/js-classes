@@ -1,0 +1,69 @@
+[
+  {
+    "description": "    In this feature we are going to test addition, substration, multiplcation",
+    "elements": [
+      {
+        "description": "",
+        "id": "mathematical-calculations;addition-of-two-numbers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Addition of two numbers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the two numbers are 10 and 15",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "both the numbers are added",
+            "match": {
+              "location": "features/support/step_definitions/stepstwo.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result should be 26",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -25\n    +26\n\n    at Addition.<anonymous> (/Users/paarthu/Documents/AXONE/Dev Test JS Axone/2 Module/3 Chapter/cucumbertest/features/support/step_definitions/steps.js:11:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@execute",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "mathematical-calculations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Mathematical calculations",
+    "tags": [],
+    "uri": "features/example.feature"
+  }
+]
