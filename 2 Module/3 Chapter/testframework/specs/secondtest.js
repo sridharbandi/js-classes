@@ -11,6 +11,6 @@ describe('My details', ()=> {
 
         //expect(a).to.include.members(b)
         //assert.equal(3, '3', 'Expected is not actual')
-        assert.lengthOf(a, 4, 'array should have length of 3');
+        assert.lengthOf(a, 3, 'array should have length of 3');
     })
 })
